@@ -44,7 +44,7 @@ defmodule TypedStructEctoChangeset.MixProject do
       {:ecto, "~> 3.10", only: [:test]},
       {:ex_doc, "~> 0.29", only: [:dev], runtime: false},
       # {:typed_struct, "~> 0.3.0", only: [:dev, :test], runtime: false}
-      {:typedstruct, git: "https://github.com/Nezteb/typedstruct.git", branch: "main", only: [:dev, :test], runtime: false}
+      {:typedstruct, git: "https://github.com/Nezteb/typedstruct.git", branch: "main"}
     ]
   end
 
